@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850155DD2BE66BBE000CB5F1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */; };
+		850155DF2BE67B4A000CB5F1 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */; };
 		855947D52BDF965B002DA666 /* todoappsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947D42BDF965B002DA666 /* todoappsApp.swift */; };
 		855947D72BDF965B002DA666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947D62BDF965B002DA666 /* ContentView.swift */; };
 		855947D92BDF965D002DA666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855947D82BDF965D002DA666 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashScreenView.swift; path = todoapps/SplashScreenView.swift; sourceTree = SOURCE_ROOT; };
+		850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
 		855947D12BDF965B002DA666 /* todoapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		855947D42BDF965B002DA666 /* todoappsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoappsApp.swift; sourceTree = "<group>"; };
 		855947D62BDF965B002DA666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 				855947D62BDF965B002DA666 /* ContentView.swift */,
 				855947D82BDF965D002DA666 /* Assets.xcassets */,
 				855947DA2BDF965D002DA666 /* Preview Content */,
+				850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */,
 			);
 			path = todoapps;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		855947DA2BDF965D002DA666 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */,
 				855947DB2BDF965D002DA666 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				855947D72BDF965B002DA666 /* ContentView.swift in Sources */,
+				850155DF2BE67B4A000CB5F1 /* BottomNavigationView.swift in Sources */,
 				855947D52BDF965B002DA666 /* todoappsApp.swift in Sources */,
+				850155DD2BE66BBE000CB5F1 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

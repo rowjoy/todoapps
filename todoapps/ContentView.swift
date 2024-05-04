@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+   @State private var isActive = true;
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            if self.isActive {
+                SplashScreenView()
+            }else {
+                BottomNavigationView()
+            }
         }
-        .padding()
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 6.6) {
+                withAnimation{
+                    self.isActive = false;
+                }
+            }
+        }
+        
     }
 }
 
