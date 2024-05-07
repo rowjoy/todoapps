@@ -9,9 +9,14 @@ import SwiftUI
 
 struct BottomNavigationView : View {
     var body: some View {
-       Text("Bottom Navigation Bar")
+        TabView{
+            
+        }
+        
     }
 }
+
+
 
 
 #Preview {

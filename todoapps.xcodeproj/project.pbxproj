@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		850155DD2BE66BBE000CB5F1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */; };
 		850155DF2BE67B4A000CB5F1 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */; };
+		8542B7882BEA6CDB00F43265 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7872BEA6CDB00F43265 /* DashBoardView.swift */; };
+		8542B78A2BEA6CFA00F43265 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B7892BEA6CFA00F43265 /* TaskView.swift */; };
+		8542B78C2BEA6D1B00F43265 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B78B2BEA6D1B00F43265 /* ReportView.swift */; };
+		8542B78E2BEA6D3000F43265 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542B78D2BEA6D3000F43265 /* ProfileView.swift */; };
 		855947D52BDF965B002DA666 /* todoappsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947D42BDF965B002DA666 /* todoappsApp.swift */; };
 		855947D72BDF965B002DA666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855947D62BDF965B002DA666 /* ContentView.swift */; };
 		855947D92BDF965D002DA666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855947D82BDF965D002DA666 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* Begin PBXFileReference section */
 		850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashScreenView.swift; path = todoapps/SplashScreenView.swift; sourceTree = SOURCE_ROOT; };
 		850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		8542B7872BEA6CDB00F43265 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		8542B7892BEA6CFA00F43265 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		8542B78B2BEA6D1B00F43265 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		8542B78D2BEA6D3000F43265 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		855947D12BDF965B002DA666 /* todoapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		855947D42BDF965B002DA666 /* todoappsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoappsApp.swift; sourceTree = "<group>"; };
 		855947D62BDF965B002DA666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,9 +108,12 @@
 			children = (
 				855947D42BDF965B002DA666 /* todoappsApp.swift */,
 				855947D62BDF965B002DA666 /* ContentView.swift */,
+				8542B7872BEA6CDB00F43265 /* DashBoardView.swift */,
+				8542B7892BEA6CFA00F43265 /* TaskView.swift */,
+				8542B78D2BEA6D3000F43265 /* ProfileView.swift */,
+				8542B78B2BEA6D1B00F43265 /* ReportView.swift */,
 				855947D82BDF965D002DA666 /* Assets.xcassets */,
 				855947DA2BDF965D002DA666 /* Preview Content */,
-				850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */,
 			);
 			path = todoapps;
 			sourceTree = "<group>";
@@ -110,6 +121,7 @@
 		855947DA2BDF965D002DA666 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				850155DE2BE67B4A000CB5F1 /* BottomNavigationView.swift */,
 				850155DC2BE66BBE000CB5F1 /* SplashScreenView.swift */,
 				855947DB2BDF965D002DA666 /* Preview Assets.xcassets */,
 			);
@@ -263,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8542B78E2BEA6D3000F43265 /* ProfileView.swift in Sources */,
 				855947D72BDF965B002DA666 /* ContentView.swift in Sources */,
+				8542B7882BEA6CDB00F43265 /* DashBoardView.swift in Sources */,
 				850155DF2BE67B4A000CB5F1 /* BottomNavigationView.swift in Sources */,
+				8542B78A2BEA6CFA00F43265 /* TaskView.swift in Sources */,
+				8542B78C2BEA6D1B00F43265 /* ReportView.swift in Sources */,
 				855947D52BDF965B002DA666 /* todoappsApp.swift in Sources */,
 				850155DD2BE66BBE000CB5F1 /* SplashScreenView.swift in Sources */,
 			);
